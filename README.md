@@ -1,1 +1,1 @@
-# sugarcane-weed-detection
+# sugarcane-weed-detection using YOLOV8 model
