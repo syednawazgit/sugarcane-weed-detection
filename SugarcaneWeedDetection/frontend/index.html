@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sugarcane Weed Detection</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <header>
+    <h1>Sugarcane Weed Detection</h1>
+    <p class="subheading">Detect weeds in your sugarcane crop easily</p>
+  </header>
+
+  <div class="container">
+    <div class="upload-section">
+      <h3>Upload an Image</h3>
+      <input type="file" id="fileInput" accept="image/*" />
+      <button id="detectBtn" onclick="uploadImage()">Detect Weeds</button>
+      <p id="loadingText"></p>
+    </div>
+
+    <div id="result" class="result-section">
+      <h3>Detection Result</h3>
+      <img id="resultImage" alt="Detected Image" />
+      <p id="resultText"></p>
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 Sugarcane Weed Detection | All Rights Reserved</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
